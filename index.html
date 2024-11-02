@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <form>
+        <label>Add Name</label>
+        <input type="text" id="newName" class="form-control" />
+        <br />
+        <label>Add Quantity</label>
+        <input type="number" id="newQty" class="form-control mb-4" />
+      </form>
+      <h1>My Inventory List</h1>
+      <button id="fetch-inventory" class="btn btn-primary mt-2">
+        Fetch Inventory
+      </button>
+      <button id="create-inventory" class="btn btn-success mt-2">
+        Create Item
+      </button>
+
+      <div id="inventory-container" class="mt-4"></div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

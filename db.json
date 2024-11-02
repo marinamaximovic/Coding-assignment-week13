@@ -1,0 +1,39 @@
+{
+  "inventory": [
+    {
+      "name": "Mic",
+      "quantity": "7",
+      "id": 1
+    },
+    {
+      "name": "Keyboard",
+      "quantity": "10",
+      "id": 2
+    },
+    {
+      "name": "Monitor",
+      "quantity": "5",
+      "id": 3
+    },
+    {
+      "name": "Mouse",
+      "quantity": "3",
+      "id": 4
+    },
+    {
+      "name": "Laptop",
+      "quantity": "2",
+      "id": 5
+    },
+    {
+      "name": "Mic",
+      "quantity": "3",
+      "id": 6
+    },
+    {
+      "name": "monitor",
+      "quantity": "4",
+      "id": 7
+    }
+  ]
+}
